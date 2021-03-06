@@ -64,7 +64,7 @@ const dropdownHandler = () => {
         const breedLis = liContainer.querySelectorAll('li')
         breedLis.forEach(li => {
             if (li.textContent[0] === breedLetter) {
-                li.style.display = 'block'
+                li.style.display = ''
             } else {
                 li.style.display = 'none'
             }
